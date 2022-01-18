@@ -1,0 +1,55 @@
+### The commands that are basic:
+
+1. Setting the username and Pwd:
+git pull origin main
+git config --global user.name '<username>'
+git config -- global user.email '<user email>'
+  
+
+2. Navigate to the project UI on Github. Fork it. Click code, clipboard and copy <url>.
+  2.1 Clone:
+  git clone <url>
+  2.2 Change directory:
+  cd <>/
+  2.3 Checkout new branch
+  git checkout -b <branch-name>
+  
+3. Checking
+git status
+git diff
+
+4. Adding
+git add <example.py>
+git commit -m "text to reason to commit"
+git push -u origin <branch-name>
+
+  
+### Starting a new empty repo
+git init
+  
+### Staging changes in dir
+git add <dir>
+  
+### History
+git log
+  
+### Reverting
+git revert <commit-7first hash>
+  
+### Remove file from the staging area, leaving working dir unchanged
+git reset <file>
+  
+### Cleaning: -n names and -f to execute
+git clean -n
+git clean -f
+  
+### Git Rebase: using branch name, commit ID 
+git rebase <base>
+  
+## Git remote repo commands:
+git remote add <url> or <name>
+git fetch <remote> <brancj=h>
+git pull <remote>
+git push
+  
+  
